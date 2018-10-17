@@ -1,5 +1,5 @@
 ---
-codis_dir: /home/codis/codis
+codis_dir: /home/work/run_env/codis
 
 coordinator_name: filesystem
 
@@ -7,9 +7,9 @@ coordinator_addr: /tmp/codis
 
 codis_install_dir: /data/codis-vip
 
-product_name: codis-demo
+product_name: codis-dmp
 
-product_auth: test
+product_auth: football
 
 dashboard_addr: 127.0.0.1:18080
 
@@ -17,10 +17,10 @@ proxy_addr: 127.0.0.1:19000
 
 proxy_admin_addr: 127.0.0.1:11080
 
-codis_server_workdir: /data/redis-6379
+codis_server_workdir: /home/work/run_env/redis
 
 codis_server_port: 6379
 
-redis_sentinel_workdir: /data/sentinel-26379
+redis_sentinel_workdir: /home/work[/run_env/redis-sentinel
 
 redis_sentinel_port: 26379
