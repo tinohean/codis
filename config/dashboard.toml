@@ -15,8 +15,8 @@ coordinator_addr = "/tmp/codis"
 #coordinator_auth = ""
 
 # Set Codis Product Name/Auth.
-product_name = "codis-demo"
-product_auth = ""
+product_name = "codis-dmp"
+product_auth = "foobar"
 
 # Set bind address for admin(rpc), tcp only.
 admin_addr = "0.0.0.0:18080"

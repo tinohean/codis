@@ -1,15 +1,15 @@
 ---
-codis_dir: /home/work/run_env/codis
+codis_dir: /home/work/run_env/codis/src/github.com/CodisLabs/codis/
 
 coordinator_name: filesystem
 
-coordinator_addr: /tmp/codis
+coordinator_addr: /home/work/run_env/codis/
 
-codis_install_dir: /data/codis-vip
+codis_install_dir: /home/work/run_env/codis/
 
 product_name: codis-dmp
 
-product_auth: football
+product_auth: foobar
 
 dashboard_addr: 127.0.0.1:18080
 
@@ -17,10 +17,12 @@ proxy_addr: 127.0.0.1:19000
 
 proxy_admin_addr: 127.0.0.1:11080
 
-codis_server_workdir: /home/work/run_env/redis
+codis_server_workdir: /home/work/run_env/codis
 
 codis_server_port: 6379
 
-redis_sentinel_workdir: /home/work[/run_env/redis-sentinel
+redis_sentinel_workdir: /home/work/run_env/codis
 
 redis_sentinel_port: 26379
+
+session_auth: foobar

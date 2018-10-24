@@ -70,7 +70,7 @@ restart)
     "$0" start
     ;;
 remove-lock)
-    $CODIS_ADMIN_TOOL_BIN -v --remove-lock --product=codis-demo --zookeeper=127.0.0.1:2181
+    $CODIS_ADMIN_TOOL_BIN -v --remove-lock --product=codis-dmp --zookeeper=127.0.0.1:2181
     ;;
 *)
     echo "Usage: $0 {start|start-foreground|stop|stop-forced|restart|remove-lock}" >&2

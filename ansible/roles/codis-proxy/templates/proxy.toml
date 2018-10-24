@@ -9,6 +9,8 @@
 product_name = "{{ product_name }}"
 product_auth = "{{ product_auth }}"
 
+# Set redis auth
+session_auth = "{{ session_auth }}"
 # Set bind address for admin(rpc), tcp only.
 admin_addr = "{{ proxy_admin_addr }}"
 

@@ -1,6 +1,6 @@
 ---
 - name: Create codis server work directory
-  file: path={{ codis_server_workdir }} state=directory owner=codis group=codis
+  file: path={{ codis_server_workdir }} state=directory owner=work group=work
 
 - name: Copy codis-server binary
   copy: src={{ codis_dir }}/bin/codis-server dest={{ codis_install_dir }}/bin/codis-server mode=766
